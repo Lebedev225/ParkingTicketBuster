@@ -43,7 +43,7 @@ client = Client(account_sid, auth_token)
 
 weekday = datetime.today().weekday()
 print(weekday)
-if weekday == 4:
+if weekday == 2:
     instruction = "Tomorrow is Thursday, street sweeping will be on the other side of the street, make sure to park on the near side tonight!"
     send_message(instruction)
 else:
